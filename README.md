@@ -15,7 +15,7 @@ This project is based on [IPTVParser](https://github.com/MyniqX/IpTvParser) and 
 - Basic download capabilities (limited to what your browser supports).
 
 
-![ScreenShot]((https://github.com/MyniqX/iptv-manager/blob/main/screenshot/screen.gif?raw=true))
+![ScreenShot](https://github.com/MyniqX/iptv-manager/blob/main/screenshot/screen.gif?raw=true)
 
 # What is next?
 
