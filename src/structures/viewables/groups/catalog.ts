@@ -420,7 +420,7 @@ export class Catalog extends GroupObject {
     private async fetchTextFile(url: string): Promise<string> {
         try {
             const apiUrl = '/check-m3u/' + encodeURIComponent(url);
-            const response = await fetch(apiUrl, { mode: 'cors' });
+            const response = await fetch(url);
             const reader = response.body?.getReader();
 
             if (!reader) {
@@ -567,7 +567,7 @@ export class Catalog extends GroupObject {
             const db = new DataBase();
             const key = this.profileKey("m3u");
             await db.openDatabase();
-            await db.addData(key, data);
+            await db.setData(key, data);
             return true;
         }
         catch (e) {

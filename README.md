@@ -14,6 +14,9 @@ This project is based on [IPTVParser](https://github.com/MyniqX/IpTvParser) and 
 - It can play some videos, but it depends on your browser's capabilities, and in the end, it needs a player to watch (same as the original project).
 - Basic download capabilities (limited to what your browser supports).
 
+
+![ScreenShot](https://github.com/MyniqX/iptv-manager/blob/master/screenshot/screen.gif?raw=true)
+
 # What is next?
 
 I am trying to eliminate some of the disadvantages with some other technologies (maybe MAUI :).
