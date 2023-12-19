@@ -420,7 +420,7 @@ export class Catalog extends GroupObject {
     private async fetchTextFile(url: string): Promise<string> {
         try {
             const apiUrl = '/check-m3u/' + encodeURIComponent(url);
-            const response = await fetch(url);
+            const response = await fetch(apiUrl);
             const reader = response.body?.getReader();
 
             if (!reader) {
